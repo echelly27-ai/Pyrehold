@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PYREHOLD — The long night</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%231a140f' width='100' height='100'/%3E%3Ctext y='.78em' x='10' font-size='70'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/scroll.css?v=7" />
+</head>
+<body>
+  <a class="skip" href="#daylight">Skip to the day</a>
+  <header class="bar">
+    <a class="mark" href="#hold">PYRE<span>HOLD</span></a>
+    <nav>
+      <a href="#daylight">Day</a>
+      <a href="#yard">Yard</a>
+      <a href="#dead">Night</a>
+      <a href="#forts">Forts</a>
+    </nav>
+    <a class="source" href="https://github.com/echelly27-ai/F2026/pull/1" target="_blank" rel="noopener">GitHub</a>
+    <a class="play" href="index.html">Enter the yard</a>
+  </header>
+
+  <main>
+    <section id="hold" class="hero">
+      <div class="sky"></div>
+      <div class="pines" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="stage">
+        <p class="eyebrow">Ashpine · a cold plot</p>
+        <h1>Hold the pyre.</h1>
+        <p class="lede">Daylight is for wood, stone, and gold. Night is for whatever walks out of the trees. Scroll the long night, then take the yard.</p>
+        <div class="hero-actions">
+          <a class="play big" href="index.html">Enter the yard</a>
+          <a class="ghost" href="#daylight">Start at dawn</a>
+        </div>
+      </div>
+      <div class="hearth" aria-hidden="true">
+        <div class="flame"></div>
+        <div class="log"></div>
+        <div class="log cross"></div>
+        <div class="ring"></div>
+      </div>
+      <p class="cue">Scroll</p>
+    </section>
+
+    <section id="daylight" class="sheet day">
+      <div class="copy">
+        <p class="eyebrow">The first day</p>
+        <h2>Three minutes before they come.</h2>
+        <p>The opening sun lasts long enough to chop, quarry, and haul scrap. A dropper beside the hearth throws gold coins onto the dirt. Walk over a coin and it is yours. Press T only when the walls are ready.</p>
+      </div>
+      <ul class="stocks">
+        <li>
+          <b>Wood</b>
+          <span>Pines in Ashpine. Walls, floors, and the first gun.</span>
+          <i class="swatch wood"></i>
+        </li>
+        <li>
+          <b>Stone</b>
+          <span>Grey rock, and a quarry to the east.</span>
+          <i class="swatch stone"></i>
+        </li>
+        <li>
+          <b>Metal</b>
+          <span>Scrap piles. Later forts and heavier guns.</span>
+          <i class="swatch metal"></i>
+        </li>
+        <li>
+          <b>Gold</b>
+          <span>Coins from the dropper. Twelve a piece, as long as you pick them up.</span>
+          <i class="swatch gold"></i>
+        </li>
+      </ul>
+    </section>
+
+    <section id="yard" class="sheet yard">
+      <div class="copy">
+        <p class="eyebrow">The yard</p>
+        <h2>Stand on the price. The camp builds itself.</h2>
+        <p>Green pads ring the plot. Each one names a wall, floor, barricade, campfire, or watchtower and a pile of gold. Stay on the pad and the piece rises beside you. The amber stall is the weaponry: guns cost wood, stone, and gold.</p>
+      </div>
+      <div class="diorama" aria-hidden="true">
+        <div class="plot">
+          <span class="wall n"></span>
+          <span class="wall s"></span>
+          <span class="wall w"></span>
+          <span class="wall e"></span>
+          <span class="pad">Wood wall<br>70 gold</span>
+          <span class="pad">Wood floor<br>25 gold</span>
+          <span class="pad">Barricade<br>55 gold</span>
+          <span class="core">Pyre</span>
+          <span class="stall">Weaponry<br>wood · stone · gold</span>
+          <span class="coin"></span>
+          <span class="coin b"></span>
+          <span class="coin c"></span>
+        </div>
+      </div>
+      <ol class="steps">
+        <li><b>Chop and quarry</b> until the packs are heavy.</li>
+        <li><b>Pick up the coins</b> the dropper spits onto the ground.</li>
+        <li><b>Stand on a green pad</b> and the matching structure builds.</li>
+        <li><b>Buy a pistol</b> at the weaponry, then face the gate.</li>
+      </ol>
+    </section>
+
+    <section id="dead" class="sheet night">
+      <div class="copy">
+        <p class="eyebrow">When the light goes</p>
+        <h2>They path for the hearth and chew whatever blocks them.</h2>
+        <p>Wave one is a single lane of shamblers. Later nights add runners, spitters, and bosses. Die, and dawn snaps back: the yard empties, the same wave waits, and the camp you built is still standing.</p>
+      </div>
+      <div class="roster">
+        <article><i class="fig shambler"></i><h3>Shambler</h3><p>Walks the lane and bites the wall.</p></article>
+        <article><i class="fig runner"></i><h3>Runner</h3><p>Reaches the gate before the rest.</p></article>
+        <article><i class="fig tank"></i><h3>Tank</h3><p>Picks the thickest timber and stays there.</p></article>
+        <article><i class="fig crawler"></i><h3>Crawler</h3><p>Slips under a barricade. Walls stop it.</p></article>
+        <article><i class="fig spitter"></i><h3>Spitter</h3><p>Hangs back and melts the ring.</p></article>
+        <article><i class="fig exploder"></i><h3>Exploder</h3><p>Detonates when it arrives.</p></article>
+        <article><i class="fig armored"></i><h3>Armored</h3><p>Shrugs off the first sidearm.</p></article>
+        <article><i class="fig screamer"></i><h3>Screamer</h3><p>Calls more of them in.</p></article>
+        <article><i class="fig mutant"></i><h3>Mutant</h3><p>The shape the late nights take.</p></article>
+      </div>
+      <div class="bosses">
+        <p>Boss nights</p>
+        <ul>
+          <li>The Brute</li>
+          <li>The Necromancer</li>
+          <li>The Abomination</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="forts" class="sheet forts">
+      <div class="copy">
+        <p class="eyebrow">Raise the hold</p>
+        <h2>Six camps. One hearth.</h2>
+        <p>Each fort opens weapons, turrets, and another reach of the map. Ashpine is home. The quarry, Rust City, Fort Halden, and Blackglass Lab wait behind higher walls.</p>
+      </div>
+      <ol class="stairs">
+        <li><b>Starter Camp</b><span>Pine walls and a cold pyre.</span></li>
+        <li><b>Wooden Fort</b><span>A workshop, and room to grow.</span></li>
+        <li><b>Stone Fort</b><span>Quarry stone. A real perimeter.</span></li>
+        <li><b>Military Base</b><span>Generators, rifles, powered turrets.</span></li>
+        <li><b>Fortress</b><span>Steel gates and rocket pits.</span></li>
+        <li><b>High-Tech Bunker</b><span>The lab comes online. The blight gets worse.</span></li>
+      </ol>
+    </section>
+
+    <section id="enter" class="sheet close">
+      <div class="hearth small" aria-hidden="true">
+        <div class="flame"></div>
+        <div class="log"></div>
+        <div class="log cross"></div>
+      </div>
+      <p class="eyebrow">Your watch</p>
+      <h2>The yard is empty. The night is not.</h2>
+      <p>Click the view to look. WASD walks. The opening is straight ahead.</p>
+      <a class="play big" href="index.html">Enter the yard</a>
+    </section>
+  </main>
+
+  <script>
+    const links = [...document.querySelectorAll(".bar nav a")];
+    const sections = ["daylight", "yard", "dead", "forts"].map((id) => document.getElementById(id));
+    function onScroll() {
+      const mark = window.scrollY + window.innerHeight * 0.35;
+      let current = sections[0].id;
+      for (const section of sections) {
+        if (section.offsetTop <= mark) current = section.id;
+      }
+      for (const link of links) {
+        link.classList.toggle("on", link.getAttribute("href") === "#" + current);
+      }
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  </script>
+</body>
+</html>
